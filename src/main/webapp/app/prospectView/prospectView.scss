@@ -1,0 +1,179 @@
+.mat-stepper-horizontal {
+  margin-top: 0px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+
+.mat-horizontal-stepper-header{
+  display: grid !important;
+  text-align: center !important;
+}
+
+.form-grid{
+  display: grid;
+  padding: 2px 20px;
+}
+.form-inputs{
+  border: solid 1px rgb(179, 178, 178);
+  height: 35px;
+  border-radius: 3px;
+}
+.form-field{
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+.form-field-exam{
+  display: inline-block;
+  padding: 5px 0px;
+}
+
+.stepper-card{
+  margin-top: 10px;
+  border-radius: 3px;
+  border: solid 1px rgb(179, 178, 178);
+  background: white;
+}
+.stepper-card-saprator{
+  width: 100%;
+  border-bottom: solid 1px rgb(179, 178, 178);
+}
+.stepper-header{
+  font-weight: 600;
+  font-size: 29px;
+}
+.stepper-sub-header{
+  font-weight: 500;
+  font-size: 18px;
+}
+.add-checkbox{
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.stepper-buttons{
+  background: #26a65b;
+  color: white;
+  border: 0px;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+.field-width{
+  width: 100%;
+}
+.doc-field-width{
+  width: 100%;
+  border: solid 1px rgb(193, 191, 191);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+.exam-form-gread{
+  display: grid;
+  border: solid 1px rgb(185, 184, 184);
+  margin: 20px;
+}
+.example-section {
+  margin: 12px 0;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+.buttons-view{
+  display: flex; 
+  justify-content: space-between;
+  padding: 0px 20px 20px 20px;
+}
+
+.doc-buttons{
+  background: none;
+  border: none;
+  color: #26a65b;
+  font-size: 14px;
+  border: solid 2px;
+}
+
+.doc-lable{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.summery-label{
+  font-size: 15px;
+  color: rgb(113, 113, 113);
+  font-weight: 400;
+}
+
+.create-lead-date{
+  align-items: stretch;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+}
+
+.summery-row{
+  margin: 0px 20px;
+  border: solid 1px rgb(194, 194, 194);
+}
+
+.summery-row-header{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.summery-view{
+  margin: 20px;
+}
+
+.summery-lable-grid{
+  display: grid;text-align: left
+}
+
+.updateUserStepper-date{
+  align-items: stretch;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+}
+.but-blue{
+  background-color: #054ea2;
+}
+.addressHeading{
+  padding: 25px 25px 0px 0px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.summery-spacing{
+  padding: 25px 25px 0px 0px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.doc-view{
+  margin-left: 15px;
+  border: solid 1px;
+  padding: 5px 15px;
+}
+.doc-status{
+  padding: 20px;
+  color: #26a65b;
+  font-weight: 500;
+}
+.doc-status-reject{
+  padding: 20px;
+  color: red;
+  font-weight: 500;
+}
+
+.submitted input.ng-invalid {
+  border: solid 1px red;
+}
+
+::ng-deep .mat-horizontal-stepper-header{
+  pointer-events: none !important;
+}
+::ng-deep .mat-step-header .mat-step-icon-selected { background-color:red; }
